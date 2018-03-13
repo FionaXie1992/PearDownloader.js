@@ -56,13 +56,13 @@ If we want to download（/tv/pear001.mp4）
 var downloader = new PearDownloader('/tv/pear001.mp4', opts);
 </script>
 ```
-Congratulations! You can use the PearDownloader now!
+Congratulations! You can use PearDownloader now!
 
 ### How to accelerate your videos?
 The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (Now only support dispatched `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`)
 
 
-### Who is using PearDownloader today?
+### Who's using PearDownloader today?
 
 + [Pear Limited](https://pear.hk)
 + [Lenovo China](https://www.lenovo.com.cn/)
