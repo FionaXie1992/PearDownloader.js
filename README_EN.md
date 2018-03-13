@@ -27,7 +27,7 @@ PearDownloader can be used by just importing `pear-downloader.min.js` to HTML vi
 
 - Client- and plugin-free because of P2P ability based on WebRTC
 - Multi-protocol (HTTP, HTTPS, WebRTC), multi-source
-- Support the present mainstream browsers because of the multi-source transmission ability (Fully schedule HTTP nodes when browser does not support WebRTC.)
+- Support the present mainstream browsers thanks to the multi-source transmission ability (Fully schedule HTTP nodes when browser does not support WebRTC.)
 - Support simultaneously playing and downloading of audios & videos using MSE within the browser kernel
 - Self-developed scheduling algorithm ensures the downloading speed while maximizing the P2P ratio at the same time. (Users can also use their own scheduling algorithm to fulfill various situation needs.)
 - No parameter needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
