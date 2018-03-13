@@ -37,7 +37,7 @@ Simply import `pear-downloader.min.js` to HTML via `<script>` tag. Refer to [cod
  
 [TEST](#Features)
 
-## Usages
+### Usages
 
 First, use script tag to import pear-downloader.min.js：
 ```html
