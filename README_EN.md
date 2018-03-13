@@ -35,7 +35,7 @@ Simply import `pear-downloader.min.js` to HTML via `<script>` tag. Refer to [cod
 - Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog Suite.
 - With Browser-to-Browser P2P ability (based on WebTorrent)
  
-[TEST](Features)
+[TEST](#Features)
 ## Usages
 
 First, use script tag to import pear-downloader.min.js：
