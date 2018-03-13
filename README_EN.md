@@ -36,6 +36,7 @@ Simply import `pear-downloader.min.js` to HTML via `<script>` tag. Refer to [cod
 - With Browser-to-Browser P2P ability (based on WebTorrent)
  
 [TEST](#Features)
+
 ## Usages
 
 First, use script tag to import pear-downloader.min.js：
