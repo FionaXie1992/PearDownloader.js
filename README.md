@@ -34,9 +34,8 @@ PearDownloader支持更多样化的文件类型，以及更灵活的调度算法
 </p>
 
 通过`<script>`标签将`pear-downloader.min.js`导入到HTML即可使用。
-参考以下[代码示例](#使用方法)，也可以查看[`/examples/downloader-test.html`](/examples/downloader-test.html)来了解使用方法。
-
-参考[get-started](docs/get-started.md)来了解基本使用方法。<br/>
+参考以下[代码示例](#使用方法)，或查看[`/examples/downloader-test.html`](/examples/downloader-test.html)
+和[get-started](docs/get-started.md)了解使用方法。<br/>
 
 ### 特性
 
@@ -87,7 +86,7 @@ PearDownloader支持更多样化的文件类型，以及更灵活的调度算法
 - **[阅读API文档](docs/api.md)**
 
 ### 致谢
-特别感谢以下项目，为本项目提供了部分灵感来源以及API设计参考：
+特别感谢以下项目，为本项目提供了部分灵感以及API设计参考：
 
 - [WebTorrent](https://github.com/webtorrent/webtorrent)
 - [Peer5](https://www.peer5.com/#)
