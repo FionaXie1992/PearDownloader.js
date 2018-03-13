@@ -54,7 +54,7 @@ If we want to download https://example.com/file.zip
 ```
 
 ### How to accelerate your files?
-The videos above has already been dispatched. So how to speed up other files? It's a piece of cake. Just add your file URL into [File distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your file downloading! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (You need to add `Pear-Demo` in front of the file name, such as `Pear-Demo-file.zip`)
+The files above has already been dispatched. So how to speed up other files? It's a piece of cake. Just add your file URL into [File distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your file downloading! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (You need to add `Pear-Demo` in front of the file name, such as `Pear-Demo-file.zip`)
 
 
 ### Who's using PearDownloader today?
