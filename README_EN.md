@@ -6,10 +6,14 @@
   <br>
 </h1>
 
-<h4 align="center">A multi-protocol, multi-source and P2P-CDN supporting Downloader</h4>
+<h4 align="center">A Downloader that Supports Multi-protocol, Multi-source and P2P-CDN</h4>
 <br>
 
-**PearDownloader** is an open soure downloader written in JavaScript, combine HTTP (including HTTPS, HTTP2) and WebRTC. It supports multi-protocol, multi-source, and achieves low latency and high bandwidth utilization. With well designed algorithms, PearDownloader can guarantee high P2P rate as well as download speed. 
+The release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has attracted constant attention from the industry and we have received many precious suggestions. On the one hand, we will continue maintaining and updating PearPlayer to support more extended functions. On the other hand, we will rearrange the related module that is of deeper layer, more flexible and applicable to wider areas. Besides, focused on node selection and data scheduling, we separate out multi-source transmission parts and thus PearDownloader.js is formed.
+
+PearDownloader (梨享下载器) **[[Demo](http://demo.webrtc.win/)]**, serving as base download module of the [PearPlayer](https://github.com/PearInc/PearPlayer.js), combines HTTP (including HTTPS, HTTP2) & WebRTC and achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. 
+ 
+PearDownloader aims to lower the migration cost for content providers (CP) of present well-developed players: CP manufacturers can choose to integrate it into their own products and achieve Web P2P ability. Or schedule the massive node sources of Pear Fog to enjoy low-cost, high-quality sharing fog CDN service. PearDownloader supports more kinds of file types, provides more flexible scheduling algorithm & strategies and satisfies broader and more flexible business situations and needs.
 
 ![multisources](fig/fogvdn_multisources.png)
 
