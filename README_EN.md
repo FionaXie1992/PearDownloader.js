@@ -20,7 +20,7 @@ PearDownloader aims to lower the migration cost for content providers (CP) of th
 <a href="https://www.npmjs.com/package/peardownloader"><img src="./fig/player-arch.png" alt="arch"></a>
 </p>
 
-You can use PearDownloader by just importing `pear-downloader.min.js` to HTML via `<script>` tag. Please refer to [code example](#使用方法) or consult [`/examples/downloader-test.html`](/examples/downloader-test.html) or [get-started](docs/get-started.md) for usages.<br/>
+PearDownloader can be used by just importing `pear-downloader.min.js` to HTML via `<script>` tag. Please refer to [code example](#使用方法) or consult [`/examples/downloader-test.html`](/examples/downloader-test.html) or [get-started](docs/get-started.md) for usages.<br/>
 
 
 ## Features
