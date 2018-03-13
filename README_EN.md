@@ -34,8 +34,8 @@ Simply import `pear-downloader.min.js` to HTML via `<script>` tag. Refer to [cod
 - Optional access to low cost, high availability Pear [Fog CDN](https://github.com/PearInc/FogVDN)
 - Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog Suite.
 - With Browser-to-Browser P2P ability (based on WebTorrent)
-
-
+ 
+[TEST](Features)
 ## Usages
 
 First, use script tag to import pear-downloader.min.js：
