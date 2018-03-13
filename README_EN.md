@@ -14,11 +14,13 @@ The release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has att
 PearDownloader (梨享下载器) **[[Demo](http://demo.webrtc.win/)]**, serving as base download module of the [PearPlayer](https://github.com/PearInc/PearPlayer.js), combines HTTP (including HTTPS, HTTP2) & WebRTC and achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. Our scheduling algorithm, based on high efficiency, can integrate data from multi nodes to form a complete file or transfer well-organised data/media stream to upper layer applications like audio & video players. Thus, PearDownloader can ensure the downloading speed while maximizing the P2P ratio at the same time.
  
  
-PearDownloader aims to lower the migration cost for content providers (CP) of the present well-developed players: CP manufacturers can choose to integrate it into their own products and achieve Web P2P ability. They can also schedule the massive node sources of Pear Fog to enjoy low-cost, high-quality sharing fog CDN service. PearDownloader supports more kinds of file types, provides more flexible scheduling algorithm & strategies and satisfies broader and more flexible business situations and needs.
+PearDownloader aims to lower the migration cost for content providers (CP) of the present well-developed players: CP manufacturers can choose to integrate it into their own products and achieve Web P2P ability. They can also schedule the massive node sources of [Pear Fog](https://github.com/PearInc) to enjoy low-cost, high-quality sharing fog CDN service. PearDownloader supports more kinds of file types, provides more flexible scheduling algorithm & strategies and satisfies broader and more flexible business situations and needs.
 
-![multisources](fig/fogvdn_multisources.png)
+<p align="center">
+<a href="https://www.npmjs.com/package/peardownloader"><img src="./fig/player-arch.png" alt="arch"></a>
+</p>
 
-You can use PearDownloader by just importing `pear-downloader.min.js` to HTML via `<script>` tag. Please refer to [code example](#使用方法) or consult [`/examples/download.html`] or [API document](docs/get-started.md)(/examples/download.html) for usages.<br/>
+You can use PearDownloader by just importing `pear-downloader.min.js` to HTML via `<script>` tag. Please refer to [code example](#使用方法) or consult [`/examples/downloader-test.html`](/examples/downloader-test.html) or [get-started](docs/get-started.md) for usages.<br/>
 
 
 ## Features
@@ -29,36 +31,30 @@ You can use PearDownloader by just importing `pear-downloader.min.js` to HTML vi
 - Support simultaneously playing and downloading of audios & videos using MSE within the browser kernel
 - Self-developed scheduling algorithm ensures the downloading speed while maximizing the P2P ratio at the same time. (Users can also use their own scheduling algorithm to fulfill various situation needs.)
 - No parameter needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
-- Optional access to low cost, high availability Pear Fog CDN
+- Optional access to low cost, high availability Pear [Fog CDN](https://github.com/PearInc/FogVDN)
 - Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
 - With Browser P2P ability (based on WebTorrent)
 
 
-## Usage
+## Usages
 
-### Import the js packet
 First, use script tag to import pear-downloader.min.js：
 ```html
 <script src="./dist/pear-downloader.min.js"></script>
 ```
 or use CDN
-
 ```html
-<script src="https://cdn.jsdelivr.net/npm/peardownloader@latest/dist/pear-downloader.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/peardownloader@latest"></script></script>
 ```
-If we want to download（/tv/pear001.mp4）
+If we want to download https://example.com/file.zip
 ```html
 <script>
-/**
- * first parameter is the file's URL
- * opts is optional parameter
- */
-var downloader = new PearDownloader('/tv/pear001.mp4', opts);
+  var downloader = new PearDownloader('https://example.com/file.zip');
 </script>
 ```
 
-### How to accelerate your videos?
-The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (Now only support dispatched `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`)
+### How to accelerate your files?
+The videos above has already been dispatched. So how to speed up other files? It's a piece of cake. Just add your file URL into [File distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your file downloading! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (You need to add `Pear-Demo` in front of the file name, such as `Pear-Demo-file.zip`)
 
 
 ### Who's using PearDownloader today?
