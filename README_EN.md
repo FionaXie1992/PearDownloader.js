@@ -9,7 +9,7 @@
 <h4 align="center">A Downloader that Supports Multi-protocol, Multi-source and P2P-CDN</h4>
 <br>
 
-Release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has attracted constant attention from the industry and we have received many precious suggestions. On the one hand, we will continue maintaining and updating PearPlayer to support more extended functions. On the other hand, we will rearrange the related module that is of deeper layer, more flexible and applicable to wider areas. Besides, focused on node selection and data scheduling, we separate out multi-source transmission parts and thus form PearDownloader.js.
+The release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has attracted constant attention from the industry and we have received many precious suggestions. On the one hand, we will continue maintaining and updating PearPlayer to support more extended functions. On the other hand, we will rearrange the related module that is of deeper layer, more flexible and applicable to wider areas. Besides, focused on node selection and data scheduling, we separate out multi-source transmission parts and thus form PearDownloader.js.
 
 PearDownloader (梨享下载器) **[[Demo](http://demo.webrtc.win/)]**, serving as base download module of the [PearPlayer](https://github.com/PearInc/PearPlayer.js), combines HTTP (including HTTPS, HTTP2) & WebRTC and achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. Our scheduling algorithm, based on high efficiency, can integrate data from multi nodes to form a complete file or transfer well-organised data/media stream to upper layer applications like audio & video players. Thus, PearDownloader can ensure the downloading speed while maximizing the P2P ratio at the same time.
  
@@ -56,7 +56,6 @@ If we want to download（/tv/pear001.mp4）
 var downloader = new PearDownloader('/tv/pear001.mp4', opts);
 </script>
 ```
-Congratulations! You can use PearDownloader now!
 
 ### How to accelerate your videos?
 The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (Now only support dispatched `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`)
@@ -70,6 +69,7 @@ The videos above has already been dispatched. So how to speed up other videos? I
 + [UCloud](https://www.ucloud.cn)
 + [Tencent Cloud](https://qcloud.com)
 + [Tencent X5/TBS](https://x5.tencent.com/tbs/)
++ [Tencent APD](http://www.chinaz.com/news/2016/0707/548873.shtml)
 
 ### PearDownloader Documents
 - **[get-started](docs/get-started.md)**
