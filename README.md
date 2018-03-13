@@ -17,7 +17,7 @@
 
 [English](./README_EN.md)
 
-[PearPlayer.js](https://github.com/PearInc/PearPlayer.js)发布后，吸引了业界持续的关注，同时我们也收集了许多宝贵的建议。
+[PearPlayer.js](https://github.com/PearInc/PearPlayer.js)发布后，吸引了业界的持续关注，同时我们也收集到许多宝贵建议。
 一方面我们将持续维护更新PearPlayer，使其支持更多的拓展功能；
 另一方面我们将更底层、更基础且适用范围更广的相关组件重新整理，专注于节点的选择及数据的调度，将多源传输部分剥离出来，形成PearDownloader.js。
 PearDownloader的发布，旨在降低已有成熟播放器的内容提供商(CP)的迁移成本：CP厂商可以按需将其集成到自有产品中，实现Web P2P能力；或者调度[Pear Fog](https://github.com/PearInc)的海量节点资源，享受低成本、高质量的共享雾CDN服务。
