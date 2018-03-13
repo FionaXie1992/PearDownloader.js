@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A Downloader that Supports Multi-protocol, Multi-source and Mixed P2P-CDN</h4>
+<h4 align="center">A multi-protocol, multi-source and hybrid P2P-CDN downloader </h4>
 <br>
 
 The release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has attracted constant attention from the industry and we have received many precious suggestions. On the one hand, we will continue maintaining and updating PearPlayer to support more extended functions. On the other hand, we will rearrange the related module that is of deeper layer, more flexible and applicable to wider areas. Besides, focused on node selection and data scheduling, we separate out multi-source transmission parts and thus form PearDownloader.js.
