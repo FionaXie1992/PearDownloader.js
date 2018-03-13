@@ -9,7 +9,7 @@
 <h4 align="center">A Downloader that Supports Multi-protocol, Multi-source and P2P-CDN</h4>
 <br>
 
-The release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has attracted constant attention from the industry and we have received many precious suggestions. On the one hand, we will continue maintaining and updating PearPlayer to support more extended functions. On the other hand, we will rearrange the related module that is of deeper layer, more flexible and applicable to wider areas. Besides, focused on node selection and data scheduling, we separate out multi-source transmission parts and thus PearDownloader.js is formed.
+Release of [PearPlayer.js](https://github.com/PearInc/PearPlayer.js) has attracted constant attention from the industry and we have received many precious suggestions. On the one hand, we will continue maintaining and updating PearPlayer to support more extended functions. On the other hand, we will rearrange the related module that is of deeper layer, more flexible and applicable to wider areas. Besides, focused on node selection and data scheduling, we separate out multi-source transmission parts and thus form PearDownloader.js.
 
 PearDownloader (梨享下载器) **[[Demo](http://demo.webrtc.win/)]**, serving as base download module of the [PearPlayer](https://github.com/PearInc/PearPlayer.js), combines HTTP (including HTTPS, HTTP2) & WebRTC and achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. Our scheduling algorithm, based on high efficiency, integrates data from many nodes to form a complete file or transfers the well-organised data/media stream to upper layer applications such as audio & video players. Thus, PearPlayer can ensure the downloading speed while maximizing the P2P ratio at the same time.
  
@@ -18,15 +18,15 @@ PearDownloader aims to lower the migration cost for content providers (CP) of pr
 
 ![multisources](fig/fogvdn_multisources.png)
 
-`pear-downloader.min.js` can be imported with the html label`<script>`, refer to  [code example](#使用方法), also [`/examples/download.html`](/examples/download.html) can help you. 
+You can use PearDownloader by just importing `pear-downloader.min.js` to HTML via `<script>` tag. Please refer to [code example](#使用方法) or consult [`/examples/download.html`] or [API document](docs/get-started.md)(/examples/download.html) for usages. <br/>
 
-To know more information [API document](docs/get-started.md).<br/>
 
-### Feature
+## Features
 
-- P2P based on **WebRTC**, no plug in
-- **Speed up**, reliable
+- Client and plugin-free because of P2P ability based on WebRTC
 - Multi-protocol (HTTP, HTTPS, WebRTC), multi-source
+- Support the present mainstream browsers because of the multi-source transmission ability (Fully schedule HTTP nodes when browser does not support WebRTC.)
+- 
 - No parameter
 - Saves data usage
 - Supports all well-known browsers
@@ -36,7 +36,7 @@ To know more information [API document](docs/get-started.md).<br/>
 Demo: https://demo.webrtc.win/pear/downloader/
 
 
-## Quick Start
+## Usage
 
 ### Import the js packet
 use script label to import pear-downloader.min.js：
