@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A multi-protocol, multi-source and P2P-CDN supporting Downloader</h4>
+<h4 align="center">A multi-protocol, multi-source and P2P-CDN supporting downloader</h4>
 <br>
 
 **PearDownloader** is an open soure downloader written in JavaScript, combine HTTP (including HTTPS, HTTP2) and WebRTC. It supports multi-protocol, multi-source, and achieves low latency and high bandwidth utilization. With well designed algorithms, PearDownloader can guarantee high P2P rate as well as download speed. 
