@@ -31,7 +31,7 @@ Simply import `pear-downloader.min.js` to HTML via `<script>` tag. Refer to [cod
 - Support simultaneously playing and downloading of audios & videos using MSE within the browser kernel
 - Customized algorithms ensure the downloading speed while maximizing the P2P ratio at the same time. (Users can also adopt their own algorithms to fulfill various situation needs.)
 - Parameter-free by default (dynamic adaptive internally according to bitrate, etc.). Clients can fill in their preferred parameters in advanced mode.
-- Optional access to low cost, high availability Pear [Fog CDN](https://github.com/PearInc/FogVDN)
+- Optional access to low-cost, high-availability Pear [Fog CDN](https://github.com/PearInc/FogVDN)
 - Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog Suite.
 - With Browser-to-Browser P2P ability (based on WebTorrent)
  
